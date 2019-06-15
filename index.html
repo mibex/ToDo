@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To do lista</title>
+    <meta charset="UTF-8">   
+    <link rel = "stylesheet" type="text/css" href="css.css" />
+</head>
+
+<body>
+<div class="container">
+
+    <div class="zaglavlje">
+        <p>
+            <h1>To do lista</h1>
+        </p>
+      <form> 
+        <h3>Unesi zadatak:</h3>   
+        <input type="text" name="toDoText" id="noviUnos">
+        <button name="dugmeUnos" id="prvoDugme" onclick="noviElement()">Potvrdi zadatak</button>
+       </form>
+    </div>
+
+    <div>
+           <p>
+               <hr>
+                 <h3>Spisak zadataka koje treba obaviti:</h3>
+               <hr>
+           </p>
+         <ul>
+             <li>        
+                 U 17.00 prošetaj Džekija
+                 <button class="zatvori" >Obriši stavku</button>               
+             </li>
+            
+             <li>      
+                    U 18.00 zakazano kod frizera
+                    <button class="zatvori">Obriši stavku</button>
+             </li>
+             
+             <li>
+                    U 19.00 Aerobni trening u teretani
+                    <button class="zatvori">Obriši stavku</button>
+             </li>
+            
+             <li>
+                    U 21.00 nadji novog dečka
+                    <button class="zatvori">Obriši stavku</button>
+             </li>
+            
+         </ul>  
+    </div> 
+    
+
+
+
+
+</div>
+  <script src="js.js"></script>
+</body>
+</html>
